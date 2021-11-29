@@ -1,0 +1,23 @@
+.container{
+  background: lightgray;
+  height: calc(100vh - 40px);
+  overflow: auto;
+  padding: 12px;
+}
+
+.item{
+  background: white;
+  margin-top: 8px;
+  box-shadow: 0 0 10px rgba(0,0, 0, 0.1);
+  padding: 8px;
+}
+
+.item > div{
+  margin-top: 4px;
+}
+
+.label{
+  font-weight: bold;
+  width: 116px;
+  display: inline-block;
+}
